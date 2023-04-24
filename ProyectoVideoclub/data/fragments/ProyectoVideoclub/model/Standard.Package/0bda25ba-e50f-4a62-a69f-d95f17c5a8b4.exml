@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Videoclub" version="4">
+  <OBJECT>
+    <ID name="Videoclub" mc="Standard.Package" uid="0bda25ba-e50f-4a62-a69f-d95f17c5a8b4"/>
+    <PID name="proyectovideoclub" mc="Standard.Package" uid="3b7a9cb3-51cd-4cde-a58a-7558385b539b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Videoclub]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Peliculas" mc="Standard.Class" uid="82669b73-fcc8-49e6-95bc-a4bf333cde9c"/>
+        <COMPID name="Videoclub" mc="Standard.Class" uid="74e644c1-ea55-4eb6-846e-f695935e8f80"/>
+        <COMPID name="Ventana" mc="Standard.Class" uid="e0384a72-91a4-4a86-bc49-6dbb32e2f103"/>
+        <COMPID name="Cliente" mc="Standard.Class" uid="8aac0f6b-2aaa-44e8-8f36-dd49ee0770cf"/>
+        <COMPID name="Alquiler" mc="Standard.Class" uid="b4c49204-00aa-4eda-b7f4-419afba28425"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DigramaClasesVideoclub" mc="Standard.ClassDiagram" uid="a71f608e-b6df-47a8-aca6-49e62455587f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

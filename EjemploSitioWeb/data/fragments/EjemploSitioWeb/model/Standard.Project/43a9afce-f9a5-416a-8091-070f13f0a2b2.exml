@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EjemploSitioWeb" version="4">
+  <OBJECT>
+    <ID name="EjemploSitioWeb" mc="Standard.Project" uid="43a9afce-f9a5-416a-8091-070f13f0a2b2"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[EjemploSitioWeb]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="ejemplositioweb" mc="Standard.Package" uid="e7b78d9d-7a7d-4bd8-a5ce-d860fb79a03a"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="EjemploSitioWeb" mc="Infrastructure.DiagramSet" uid="b404fcd8-c33b-4918-a8d7-1be3057a4677"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

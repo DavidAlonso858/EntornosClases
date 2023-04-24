@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Agregacion y Composicion" version="4">
+  <OBJECT>
+    <ID name="Agregacion y Composicion" mc="Standard.Package" uid="5ef94074-089e-42df-bcc1-6d0257ad3b27"/>
+    <PID name="DiagramaClasesObjetos" mc="Standard.Project" uid="bb88dba5-cf90-4616-975a-33acd6ac9b58"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Agregacion y Composicion]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MensajeElectronico" mc="Standard.Class" uid="83892c96-8d37-4008-98bf-4ee406046379"/>
+        <COMPID name="Encabezado" mc="Standard.Class" uid="f99edc12-0bc6-4cb8-bd5b-cfe81b73c9ff"/>
+        <COMPID name="Cuerpo" mc="Standard.Class" uid="46b3146d-0e94-4993-84db-aca09d22a70e"/>
+        <COMPID name="ArchivoAdjunto" mc="Standard.Class" uid="c7a4aedb-0c3a-4b18-8fd1-bf37ef76fc11"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Agregacion y Composicion Class diagram" mc="Standard.ClassDiagram" uid="6720d94e-39e5-4041-9700-6803a7ce7815"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SitioWeb" version="4">
+  <OBJECT>
+    <ID name="SitioWeb" mc="Standard.Package" uid="e4d9fbab-7bc3-4e4f-b136-89990ac5c41a"/>
+    <PID name="ejemplositioweb" mc="Standard.Package" uid="e7b78d9d-7a7d-4bd8-a5ce-d860fb79a03a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SitioWeb]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Usuario" mc="Standard.Class" uid="990e6c79-c39b-4c83-9908-8e72faa61f29"/>
+        <COMPID name="Servidor" mc="Standard.Class" uid="6dd4f12a-fc14-439b-b4e2-72b3a10d202d"/>
+        <COMPID name="Acceso" mc="Standard.Class" uid="1bffde14-f1d3-4a69-9d86-c90e5cb7a36e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="SitioWeb" mc="Standard.ClassDiagram" uid="1e2653c8-0b94-4585-9fc7-bccb10c72223"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

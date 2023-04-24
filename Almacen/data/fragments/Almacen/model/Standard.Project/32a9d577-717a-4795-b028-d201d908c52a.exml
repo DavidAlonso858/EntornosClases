@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Almacen" version="4">
+  <OBJECT>
+    <ID name="Almacen" mc="Standard.Project" uid="32a9d577-717a-4795-b028-d201d908c52a"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Almacen]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="almacen" mc="Standard.Package" uid="f188e962-6b8b-4a01-9c9f-1c59698bf682"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Almacen" mc="Infrastructure.DiagramSet" uid="1409225f-123e-428b-98a9-d9ebe85a3a8c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DiagramaClasesObjetos" version="4">
+  <OBJECT>
+    <ID name="DiagramaClasesObjetos" mc="Standard.Project" uid="bb88dba5-cf90-4616-975a-33acd6ac9b58"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[DiagramaClasesObjetos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="Clases" mc="Standard.Package" uid="751eaf5b-37a3-4076-b58f-2d573705c565"/>
+        <COMPID name="Asociacion simple" mc="Standard.Package" uid="b6df6526-3218-41b9-9ad8-2c5b8c637e56"/>
+        <COMPID name="Asociacion calificada" mc="Standard.Package" uid="3e780a99-3063-4f35-831a-4aae893df735"/>
+        <COMPID name="Asociacion reflexiva" mc="Standard.Package" uid="d1c9c8dd-1b3d-4971-b1b0-d82346e48c0a"/>
+        <COMPID name="Generalizacion y especializacion" mc="Standard.Package" uid="169d3e94-5794-46a0-afab-fb6a3c3d5266"/>
+        <COMPID name="Agregacion y Composicion" mc="Standard.Package" uid="5ef94074-089e-42df-bcc1-6d0257ad3b27"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="DiagramaClasesObjetos" mc="Infrastructure.DiagramSet" uid="3b83f7c1-4b39-42a6-aebf-57592b230df2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

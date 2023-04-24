@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Asociacion simple" version="4">
+  <OBJECT>
+    <ID name="Asociacion simple" mc="Standard.Package" uid="b6df6526-3218-41b9-9ad8-2c5b8c637e56"/>
+    <PID name="DiagramaClasesObjetos" mc="Standard.Project" uid="bb88dba5-cf90-4616-975a-33acd6ac9b58"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Asociacion simple]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Persona" mc="Standard.Class" uid="2b530843-3cfe-4284-98cb-8c4b22162f26"/>
+        <COMPID name="Ordenador" mc="Standard.Class" uid="ac6bfad0-482d-4f7d-be41-51b3d4ffeb46"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Asociacion simple Class diagram" mc="Standard.ClassDiagram" uid="7dac9e64-ed10-4d5a-9c46-e9334c327175"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Generalizacion y especializacion" version="4">
+  <OBJECT>
+    <ID name="Generalizacion y especializacion" mc="Standard.Package" uid="169d3e94-5794-46a0-afab-fb6a3c3d5266"/>
+    <PID name="DiagramaClasesObjetos" mc="Standard.Project" uid="bb88dba5-cf90-4616-975a-33acd6ac9b58"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Generalizacion y especializacion]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Perifericos de almacenamiento" mc="Standard.Class" uid="b77f39f1-e2cc-405a-85c4-772d3fd891af"/>
+        <COMPID name="Extraible " mc="Standard.Class" uid="370ff4a8-cd53-46a4-800a-f4973c34c7e0"/>
+        <COMPID name="No extraible" mc="Standard.Class" uid="98822ad4-6496-416b-b416-0fa4a8585638"/>
+        <COMPID name="Disquete" mc="Standard.Class" uid="c2d8d3ac-a9c1-4b1a-9403-c63765916a47"/>
+        <COMPID name="Memoria USB" mc="Standard.Class" uid="bcaac862-7da8-46fa-a98a-88289b8f41e2"/>
+        <COMPID name="Disco Duro" mc="Standard.Class" uid="3fddc586-9b11-462d-a186-f982805b8417"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Generalizacion y especializacion Class diagram" mc="Standard.ClassDiagram" uid="937e17e4-fc8f-4e97-8e2d-475afbbe0d29"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

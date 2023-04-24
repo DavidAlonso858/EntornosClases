@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="almacen" version="4">
+  <OBJECT>
+    <ID name="almacen" mc="Standard.Package" uid="f188e962-6b8b-4a01-9c9f-1c59698bf682"/>
+    <PID name="Almacen" mc="Standard.Project" uid="32a9d577-717a-4795-b028-d201d908c52a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[almacen]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Almacen" mc="Standard.Class" uid="ac18dff8-5e3f-4e6e-bf50-778fdb8e37e8"/>
+        <COMPID name="AguaMineral" mc="Standard.Class" uid="85d95cc4-7eb0-45db-90fc-172a113a1e2a"/>
+        <COMPID name="BebidaAzucarada" mc="Standard.Class" uid="b9ca0ac6-d4a9-4465-9683-6641fe9250e7"/>
+        <COMPID name="Bebida" mc="Standard.Class" uid="14c89536-2e91-414e-8fba-b3b992779f5b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="almacen Class diagram" mc="Standard.ClassDiagram" uid="94ef4823-9ec8-45be-ad72-bde74ad9fbb8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

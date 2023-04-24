@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ejemplositioweb" version="4">
+  <OBJECT>
+    <ID name="ejemplositioweb" mc="Standard.Package" uid="e7b78d9d-7a7d-4bd8-a5ce-d860fb79a03a"/>
+    <PID name="EjemploSitioWeb" mc="Standard.Project" uid="43a9afce-f9a5-416a-8091-070f13f0a2b2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ejemplositioweb]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SitioWeb" mc="Standard.Package" uid="e4d9fbab-7bc3-4e4f-b136-89990ac5c41a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

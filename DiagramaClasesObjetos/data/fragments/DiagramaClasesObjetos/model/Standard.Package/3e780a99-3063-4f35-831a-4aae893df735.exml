@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Asociacion calificada" version="4">
+  <OBJECT>
+    <ID name="Asociacion calificada" mc="Standard.Package" uid="3e780a99-3063-4f35-831a-4aae893df735"/>
+    <PID name="DiagramaClasesObjetos" mc="Standard.Project" uid="bb88dba5-cf90-4616-975a-33acd6ac9b58"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Asociacion calificada]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Proceso" mc="Standard.Class" uid="0af59793-25a1-4388-a94e-d349a70a2c73"/>
+        <COMPID name="Cola" mc="Standard.Class" uid="c626ee6d-14b0-498b-8d54-ed8f3199b270"/>
+        <OBJECT>
+          <ID name="espera" mc="Standard.InformationItem" uid="cac63e6d-e8b1-47e0-b9cf-803e4a58d9f3"/>
+          <ATTRIBUTES>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[espera]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Asociacion calificada Class diagram" mc="Standard.ClassDiagram" uid="6c471d0e-6c3f-4a84-9870-bb8c371f1041"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
